@@ -1,0 +1,35 @@
+=============== Aug 14, 2020 (CDT) ===============
+23:28:00.903247 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:28:00.918082 db@open opening
+23:28:00.921499 version@stat F·[] S·0B[] Sc·[]
+23:28:00.928043 db@janitor F·2 G·0
+23:28:00.928102 db@open done T·9.964657ms
+=============== Aug 15, 2020 (CDT) ===============
+10:16:07.882320 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:16:07.888509 version@stat F·[] S·0B[] Sc·[]
+10:16:07.888605 db@open opening
+10:16:07.888815 journal@recovery F·1
+10:16:07.893498 journal@recovery recovering @1
+10:16:07.915707 memdb@flush created L0@2 N·3706 S·69KiB "loc..seq,v39":"version,v1"
+10:16:07.918417 version@stat F·[1] S·69KiB[69KiB] Sc·[0.25]
+10:16:07.942761 db@janitor F·3 G·0
+10:16:07.943322 db@open done T·54.688015ms
+11:09:41.224298 db@close closing
+11:09:41.225898 db@close done T·1.596924ms
+=============== Aug 16, 2020 (CDT) ===============
+20:38:30.285975 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:38:30.288696 version@stat F·[1] S·69KiB[69KiB] Sc·[0.25]
+20:38:30.288784 db@open opening
+20:38:30.288994 journal@recovery F·1
+20:38:30.291715 journal@recovery recovering @3
+20:38:30.349860 memdb@flush created L0@5 N·22011 S·406KiB "loc..seq,v3720":"n:\xff..ong,v9461"
+20:38:30.353229 version@stat F·[2] S·475KiB[475KiB] Sc·[0.50]
+20:38:30.392286 db@janitor F·4 G·0
+20:38:30.392364 db@open done T·103.551988ms
+20:38:30.412051 table@compaction L0·2 -> L1·0 S·475KiB Q·25720
+20:38:30.431824 table@build created L1@8 N·6133 S·217KiB "loc..seq,v3720":"version,v1"
+20:38:30.432005 version@stat F·[0 1] S·217KiB[0B 217KiB] Sc·[0.00 0.00]
+20:38:30.438789 table@compaction committed F-1 S-258KiB Ke·0 D·19584 T·26.60435ms
+20:38:30.439806 table@remove removed @2
+20:50:41.792827 db@close closing
+20:50:41.794452 db@close done T·1.624909ms

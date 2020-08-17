@@ -1,0 +1,35 @@
+=============== Aug 14, 2020 (CDT) ===============
+23:23:06.779479 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:23:06.800463 db@open opening
+23:23:06.804184 version@stat F·[] S·0B[] Sc·[]
+23:23:06.811150 db@janitor F·2 G·0
+23:23:06.811212 db@open done T·10.473664ms
+=============== Aug 15, 2020 (CDT) ===============
+10:15:09.307775 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:15:09.309844 version@stat F·[] S·0B[] Sc·[]
+10:15:09.309932 db@open opening
+10:15:09.310101 journal@recovery F·1
+10:15:09.313751 journal@recovery recovering @1
+10:15:09.344874 memdb@flush created L0@2 N·9794 S·155KiB "loc..seq,v326":"version,v1"
+10:15:09.348007 version@stat F·[1] S·155KiB[155KiB] Sc·[0.25]
+10:15:09.378943 db@janitor F·3 G·0
+10:15:09.379006 db@open done T·69.040485ms
+11:09:49.032134 db@close closing
+11:09:49.034160 db@close done T·2.022043ms
+=============== Aug 16, 2020 (CDT) ===============
+20:38:09.697397 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:38:09.699881 version@stat F·[1] S·155KiB[155KiB] Sc·[0.25]
+20:38:09.699979 db@open opening
+20:38:09.700194 journal@recovery F·1
+20:38:09.702368 journal@recovery recovering @3
+20:38:09.773014 memdb@flush created L0@5 N·24984 S·470KiB "loc..seq,v9806":"n:\xff..ong,v25568"
+20:38:09.773959 version@stat F·[2] S·626KiB[626KiB] Sc·[0.50]
+20:38:09.835259 db@janitor F·4 G·0
+20:38:09.835335 db@open done T·135.324446ms
+20:38:09.864050 table@compaction L0·2 -> L1·0 S·626KiB Q·34781
+20:38:09.887418 table@build created L1@8 N·8506 S·291KiB "loc..seq,v9806":"version,v1"
+20:38:09.887574 version@stat F·[0 1] S·291KiB[0B 291KiB] Sc·[0.00 0.00]
+20:38:09.894444 table@compaction committed F-1 S-335KiB Ke·0 D·26272 T·30.30605ms
+20:38:09.895149 table@remove removed @2
+20:50:41.375022 db@close closing
+20:50:41.376726 db@close done T·1.700222ms
